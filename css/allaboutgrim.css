@@ -1,0 +1,275 @@
+/*     General Formats     */
+.wrapper {
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+.header {
+	
+	color:red;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.nav {
+	background-color: none;
+	height: 100px;
+	width: auto;
+	font-size: 24px;
+	font-family: Times;
+	position: relative;
+}
+.footer {
+	color:#10156F;
+	position: relative;
+	font-family: Times;
+	font-size: 24px;
+	text-align: center;
+	height: 75px;
+	clear: both;
+}
+
+/* Paragraph Format */
+p {
+	font-size: 20px;
+	font-family: Times;
+	color: #DB570D;
+}
+/* Hypertext Link Formats */
+
+a:link {
+	color: #1EFE30;
+	text-decoration: none;
+	background-color: none;
+	margin-right: 10px;
+}
+a:visited {
+	color: #1EFE30;
+	text-decoration: none;
+	background-color: #0B0E5C;
+}
+a:hover {
+	color: #1EFE30;
+	text-decoration: underline;
+	background-color: #0B0E5C;
+}
+a:active {
+	color: #1EFE30;
+	text-decoration: underline;
+	background-color: #0B0E5C;
+}
+.hype_t_right {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+.hype_b_right {
+	position: absolute;
+	bottom: 20px;
+	right: 50px;
+}
+.social {
+	float: right;
+}
+
+/*     index     */
+.aside3 {
+
+	float: right;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.caption {
+	color:red;
+	font-size: 24px;
+	font-family: Times;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+}
+/*     page2 (About Grim) & page3 (Issues)   */
+.section {
+	width: 680px;
+	float: left;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.section2 {
+	width: 530px;
+	float: left;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.aside2 {
+	width: 480px;
+	float: left;
+	position: relative;
+
+}
+
+/*     page3 (Issues)     */
+.p3 {
+	font-size: 24px;
+	font-family: Times;
+	color: #DB00B0;
+	margin-top: 50px;
+}
+
+/*     page4 (Events)     */
+.events{
+	margin-top: 250px;
+	width: 100%;
+	}
+.events p {
+	color: #204001;
+	font-family: Times;
+	font-size: 24px;
+	}
+	table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+	font-family: Times;
+	font-size: 24px;
+	font-weight: bold;
+	color: red;}
+th {
+    padding: 5px;
+	font-family: Times;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: black;}
+
+	/*     page5 (Videos)     */
+.video1 {
+	float: left;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 300px;
+}
+.video2 {
+	float: right;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 300px;
+}
+	
+.aside {
+	width: 300px;
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+.aside2 {
+	width: 480px;
+	float: left;
+	position: relative;
+
+}
+.aside6 {
+	width: 250px;
+	float: left;
+	margin-top: 320px;
+	margin-left: 100px;
+	position relative;
+}
+.aside7 {
+	width: 250px;
+	float: left;
+	margin-left: 100px;
+	position relative;
+}
+
+	/*     page5 (Videos)     */
+form {
+	font-size: 20px;
+	font-family: Times;
+	color: #DB570D;
+}
+.forms {
+	padding: 70px;
+}
+.forms label{
+	float: left;
+	width: 30%;
+}
+.forms div{
+	clear: left;
+	margin: 0 0 20px 0;
+	background-color: #48555C;
+	padding: 20px;
+	border-radius: 20px;
+}
+.forms2 {
+position: absolute;
+top: 280px;
+right: 650px;
+}
+.forms2 label{
+	float: right;
+	width: 60%;
+}.forms2 div{
+	clear: both;
+	margin: 0 0 20px 0;
+	background-color: #48555C;
+	padding: 20px;
+	border-radius: 20px;
+}
+fieldset2{
+	width: 300px;
+	margin-bottom: 40px;
+}
+
+.forms3 {
+position: absolute;
+top: 280px;
+right: 200px;
+}
+.forms3 label{
+	float: left;
+	width: 60%;
+}
+.forms3 div{
+	clear: both;
+	margin: 0 0 20px 0;
+	background-color: #48555C;
+	padding: 20px;
+	border-radius: 20px;
+}
+fieldset3{
+	width: 300%;
+	margin-bottom: 40px;
+}
+
+.button {
+	font-size: 32px;
+	font-family: Times;
+	background-color: transparent;
+	text-align: center;
+}
+
+legend{
+	font-size: 20px;
+	font-family: Times;
+	color: #DB570D;
+
+}
+fieldset{
+	width: 30%;
+	margin-bottom: 40px;
+	border: transparent;
+}
